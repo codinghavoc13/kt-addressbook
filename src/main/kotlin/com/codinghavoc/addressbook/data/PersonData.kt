@@ -7,14 +7,6 @@ class PersonData() {
     val personList:MutableList<Person> = mutableListOf<Person>()
 
     init {
-//        personList.add(Person(1,"Rick","Grimes"))
-//        personList.add(Person(2,"Lori","Grimes"))
-//        personList.add(Person(3,"Carl","Grimes"))
-//        personList.add(Person(4,"Daryl","Dixon"))
-//        personList.add(Person(5,"Carol","Peletier"))
-//        personList.add(Person(6,"Glenn","Rhee"))
-//        personList.add(Person(7,"Maggie","Greene-Rhee"))
-
         addContact(Person("Rick","Grimes"))
         addContact(Person("Lori","Grimes"))
         addContact(Person("Carl","Grimes"))
